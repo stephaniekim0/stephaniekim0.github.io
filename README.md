@@ -12,7 +12,7 @@ body {background-color: #007200;}
      <font size="+2">Stephanie Kim</font><br>CS and Biology<br><br>
      <p style="margin-left: 25px;">⸺ About<br>⸺ Experiences<br>⸺ Skills<br>⸺ Projects
    </div>
-   <div style="float:right;">
+    <div style="float:right;">
      <div style="padding-right:30px">
      whatever i want
    </div>
