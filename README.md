@@ -1,20 +1,73 @@
+<!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body {background-color: #007200;}
-</style>
+* {
+  box-sizing: border-box;
+}
 
-<div style="width: 100%;">
- <div style=color:white>
-  <div style="padding-top:20px">
-   <div style="padding-left:30px">
-    <div style="float:left; width: 30%">
-     <font size="+2">Stephanie Kim</font><br>CS and Biology<br><br>
-     <p style="margin-left: 25px;">⸺ About<br>⸺ Experiences<br>⸺ Skills<br>⸺ Projects
-   </div>
-    <div style="float:right;">
-     <div style="padding-right:30px">
-     whatever i want
-   </div>
+html {
+  scroll-behavior: smooth;
+}
+
+body {background-color: #006100;}
+
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 30%;
+  color: #FBFAF2;
+}
+
+.right {
+  width: 70%;
+  color: #FBFAF2;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.myclass {
+  display: inline-block;
+  width: 15%;
+  padding: 0%;
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="column left">
+    <h2>Stephanie Kim</h2>
+    <p>CS and Biology Student</p><br>
+     <p style="margin-left: 25px;">
+     ⸺ About<br>
+     ⸺ Experiences<br>
+     ⸺ Skills<br>
+     ⸺ Projects
+  </div>
+  <div class="column right">
+    <h2>Hi!</h2>
+    <p>I'm a rising junior at Swarthmore College pursuing a double major in Computer Science and Biology. I am interested in Software Engineering, Computational Biology, Machine Learning, and more. Look around my page to learn more about my timeline!</p>
+    <p class="myclass">
+  Jan 2023 - Present
+</p>
+<p class="myclass">
+  Conservation Biology Lab
+</p>
+  </div>
 </div>
-<div style="clear:both"></div>
+
+</body>
+</html>
