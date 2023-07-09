@@ -48,7 +48,7 @@ body {background-color: #006100;}
 <body>
 
 <div class="row">
-  <div class="column left">
+  <div class="column left" style="background-color:#aaa;">
     <h2>Stephanie Kim</h2>
     <p>CS and Biology Student</p><br>
      <p style="margin-left: 25px;">
@@ -57,7 +57,7 @@ body {background-color: #006100;}
      ⸺ Skills<br>
      ⸺ Projects
   </div>
-  <div class="column right">
+  <div class="column right" style="background-color:#bbb;">
     <h2>Hi!</h2>
     <p>I'm a rising junior at Swarthmore College pursuing a double major in Computer Science and Biology. I am interested in Software Engineering, Computational Biology, Machine Learning, and more. Look around my page to learn more about my timeline!</p>
     <p class="myclass">
