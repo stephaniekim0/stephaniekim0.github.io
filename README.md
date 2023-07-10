@@ -75,7 +75,7 @@ body {
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
-  position: absolute;
+  position: relative;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -116,12 +116,12 @@ body {
 
 /* Place the container to the left */
 .left {
-  left: 0;
+  left: -20%;
 }
 
 /* Place the container to the right */
 .right {
-  left: 50%;
+  left: 30%;
 }
 
 /* Add arrows to the left container (pointing right) */
