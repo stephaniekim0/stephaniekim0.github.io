@@ -11,7 +11,7 @@
 <body>
     <!--Menu Section-->
     <nav class="sidenav">
-      <a href="#about">About</a>
+      <a href="#about">⸺About</a>
       <a href="#experiences">⸺ Experiences</a>
       <a href="#skills">⸺ Skills</a>
       <a href="#projects">⸺ Projects</a>
