@@ -69,8 +69,8 @@ body {
 }
 
 body {
-  background-color: #474e5d;
-  font-family: Helvetica, sans-serif;
+  background-color: #006100;
+  font-family: Times New Roman, sans-serif;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -84,8 +84,8 @@ body {
 .timeline::after {
   content: '';
   position: absolute;
-  width: 6px;
-  background-color: white;
+  width: 5px;
+  background-color: #FBFAF2;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -97,18 +97,18 @@ body {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
-  width: 50%;
+  width: 40%;
 }
 
 /* The circles on the timeline */
 .container::after {
   content: '';
   position: absolute;
-  width: 25px;
-  height: 25px;
-  right: -17px;
-  background-color: white;
-  border: 4px solid #FF9F55;
+  width: 23px;
+  height: 23px;
+  right: -15px;
+  background-color: #006100;
+  border: 3px solid #FBFAF2;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -134,7 +134,7 @@ body {
   z-index: 1;
   right: 30px;
   border: medium solid white;
-  border-width: 10px 0 10px 10px;
+  border-width: 6px 0 6px 10px;
   border-color: transparent transparent transparent white;
 }
 
@@ -148,13 +148,13 @@ body {
   z-index: 1;
   left: 30px;
   border: medium solid white;
-  border-width: 10px 10px 10px 0;
+  border-width: 6px 10px 6px 0;
   border-color: transparent white transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
 .right::after {
-  left: -16px;
+  left: -15px;
 }
 
 /* The actual content */
@@ -204,7 +204,7 @@ body {
 <div class="timeline">
   <div class="container left">
     <div class="content">
-      <h2>2016</h2>
+      <h2>2017</h2>
       <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
     </div>
   </div>
