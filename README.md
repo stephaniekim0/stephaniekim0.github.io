@@ -75,7 +75,7 @@ body {
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
-  position: relative;
+  position: absolute;
   max-width: 1200px;
   margin: 0 auto;
 }
