@@ -20,13 +20,13 @@ body {
   left: 0;
   background-color: #006100;
   overflow-x: hidden;
-  padding-top: 20px;
+  padding-top: 60px;
 }
 
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 3px;
+  font-size: 10px;
   color: #FBFAF2;
   display: block;
 }
@@ -37,9 +37,9 @@ body {
 }
 
 .main {
-  margin-left: 160px; /* Same as the width of the sidenav */
-  font-size: 30px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
+  margin-left: 20px; /* Same as the width of the sidenav */
+  font-size: 15px; /* Increased text to enable scrolling */
+  padding: 0px 0px;
   color: #FBFAF2;
   background-color: #006100;
 }
