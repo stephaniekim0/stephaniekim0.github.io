@@ -39,40 +39,6 @@
   transform: scale(1.04);
 }
 
-.about {
-  display: flex;
-  justify-content: row;
-  align-items: center;
-  padding: 25px 0 25px 0; 
-}
-
-.portrait_image {
-  height: 400px;
-  margin: 5px auto;
-  border-radius: 25%;
-  border: 3px solid #FBFAF2;
-}
-
-.about_description {
-  color: #FBFAF2;
-  padding: 15px 40px;
-  font-size: 1.4rem;
-}
-
-.experiences {
-  display: flex;
-  justify-content: row;
-  align-items: center;
-  padding: 25px 0 25px 0; 
-}
-
-.skills {
-  display: flex;
-  justify-content: row;
-  align-items: center;
-  padding: 25px 0 25px 0; 
-}
-
 .main {
   margin-left: 350px; /* Same as the width of the sidenav */
   font-size: 15px; /* Increased text to enable scrolling */
@@ -80,5 +46,38 @@
 }
 
 @media screen and (max-width: 960px) {
+  .about {
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    padding: 25px 0 25px 0; 
+  }
   
+  .portrait_image {
+    height: 400px;
+    margin: 5px auto;
+    border-radius: 25%;
+    border: 3px solid #FBFAF2;
+    transition: all 1s ease;
+  }
+  
+  .about_description {
+    color: #FBFAF2;
+    padding: 15px 40px;
+    font-size: 1.4rem;
+  }
+  
+  .experiences {
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    padding: 25px 0 25px 0; 
+  }
+  
+  .skills {
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    padding: 25px 0 25px 0; 
+  }
 }
