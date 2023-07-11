@@ -45,10 +45,10 @@
   padding: 0px 0px;
 }
 
-@media and (max-width: 960px) {
+@media (max-width: 960px) {
   body {
-    padding: 25px
-    background-color: #FBFAF2;
+      padding: 25px;
+      background-color: #006100;
   }
 
   .about {
