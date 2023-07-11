@@ -44,7 +44,14 @@ body {
   background-color: #006100;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 3px;}
+@media screen and (max-width: 960px) {
+  .sidenav {
+      padding-top: 15px;
+  }
+  .sidenav a {
+      font-size: 3px;
+  }
+  body {
+      background-color: #006100;
+  }
 }
