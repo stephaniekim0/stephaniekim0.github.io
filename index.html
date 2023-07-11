@@ -7,57 +7,67 @@
     <title>Stephanie's Website</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk"> 
+    <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="website.json">
 </head>
 <body>
     <!--Menu Section-->
     <nav class="sidenav">
-      <a href="#about">⸺ About</a>
-      <a href="#experiences">⸺ Experiences</a>
-      <a href="#skills">⸺ Skills</a>
-      <a href="#projects">⸺ Projects</a>
-      <a href="#contact">⸺ Contact</a>
+      <a href="#about">⸺  About</a>
+      <a href="#experiences">⸺  Experiences</a>
+      <a href="#skills">⸺  Skills</a>
+      <a href="#projects">⸺  Projects</a>
+      <a href="#contact">⸺  Contact</a>
   </nav>
 
-<div class="main"><a id="about"><h2>Stephanie Kim</h2></a>
+<div class="main">
+  <a id="about"><h2 style="font-size: 33px;">Stephanie Kim</h2></a>
     <div class="about">
-      <img src="portrait.jpg" alt="" class="portrait_image">
-      <p class="about_description">
-        Welcome to my website! I'm a rising junior at Swarthmore College studying CS and Biology. 
-        I'm interested in Software Engineering, Computational Biology, Machine Learning, and more! 
-        I'm a military brat and have moved 12+ times in my life. I've lived in 9 states and 3 different countries. 
-        I love experiencing so many different cultures and communities first-hand, and adapt well to new environments. 
-        Scroll to learn more about me and my journey!
-      </p>
+      <div class="about_container">
+        <img src="portrait.jpg" width="281.25" height="375" alt="" class="portrait_image">
+        <div class="about_description" data-aos="fade-left" data-aos-duration="850" data-aos="fade" data-aos-delay="300">
+          Welcome to my website! I'm a rising junior at Swarthmore College studying CS and Biology. 
+          I'm interested in Software Engineering, Computational Biology, Machine Learning, and more. 
+          I'm a military brat and have moved 12+ times— I've lived in 9 states and 3 countries! 
+          I adapt readily to new environments and love experiencing the different cultures and communities that each place has to offer. 
+          Scroll to learn more about me and my journey!
+        </div>
+      </div>
     </div>
 </div>
   
-<div class="main"><a id="experiences">
-    <p>Jan 2023 - Present: Student Researcher<br>
-    I currently work as a research fellow in the Conservation Biology Lab at Swarthmore College. 
-    Our lab's research is focused on frogs' skin micrbiome and how environmental factors can affect them. 
-    This summer, our lab conducted field research in Chamela, Mexico and data analysis in Mexico City, Mexico. 
-    We conducted research on how rising temperatures, water quality, and chemical pollution affects the microbiome of numerous species of Mexican frogs.<br><br>
-    Aug 2022 - Present: Student Academic Mentor<br>
-    I am trained to work with Swarthmore College's student body to help them develop skills necessary to academic success. 
-    This includes guiding students with time management, organization, study strategies, utilizing campus resources, and more. 
-    I am also specifically assigned to a group of around 30 freshmen to mentor them throughout their first year in college.<br><br>
-    Jan 2022 - July 2022: Student Researcher<br>
-    I worked with Professor Qu and other students as a research fellow in the Qu Lab at Swarthmore College.
-    The lab's research was focused on machine learning and brain-computer interfaces.
-    I reviewed scientific papers, wrote programs to organize various sets of data, and revised both code and papers to prepare for submission to conferences.<br><br>
-    May 2021 - Sept 2021: Private Tutor<br>
-    I tutored students at Camp Humphreys, a US Army base located in South Korea. 
-    Due to its location, there are very few academic resources that students and their parents can utilize, especially during the summer.
-    I tutored 6-8 students, ranging from 2nd-11th grade, for 3-5 hours a week. 
-    I taught SAT, ACT, Math (Elementary, Algebra I and II, Geometry, Pre-Calculus, and Calculus I), English, and Science (AP Biology).
-    I developed a personalized summer curriculum for each student based on their needs and expectations.<br><br>
-    Sept 2019 - May 2020: Student Researcher<br>
-    I conducted Biology research as part of the Junior Science and Humanities Symposium, a STEM program sponsored by the Department of Defense.
-    I researched the effect of various meditation techniques on the quality of sleep using smartwatch technology after determining the most effective methods of research by working with a mentor from Japan remotely.
-    Afterwards, I analyzed how the data comapred to that from previous research.
-    I presented my findings to a regional judge panel in Okinawa, Japan and placed 2nd.
-  </p></a>
+<div class="main">
+  <a id="experiences">
+    <div class="experiences">
+      <p>Student Researcher  [Jan 2023 - Present]<br>
+      I currently work as a research fellow in the Conservation Biology Lab at Swarthmore College. 
+      Our lab focuses on frogs' skin microbiome and how environmental factors (rising temperatures, water quality, chemical pollution) can affect them. 
+      This summer, our lab conducted field research in Chamela, Mexico and data analysis in Mexico City, Mexico.<br><br>
+      
+      Student Academic Mentor  [Aug 2022 - Present]<br>
+      I am trained to work with Swarthmore College's student body to help them develop skills necessary to academic success. 
+      This includes guiding students with time management, organization, study strategies, utilizing campus resources, and more. 
+      I am also specifically assigned to a group of around 30 freshmen to mentor them throughout their first year in college.<br><br>
+      
+      Student Researcher  [Jan 2022 - July 2022]<br>
+      I worked with Professor Qu and other students as a research fellow in the Qu Lab at Swarthmore College.
+      The lab's research was focused on machine learning and brain-computer interfaces.
+      I reviewed scientific papers, wrote programs to organize various sets of data, and revised both code and papers to prepare for submission to conferences.<br><br>
+      
+      Private Tutor  [May 2021 - Sept 2021]<br>
+      I tutored students at Camp Humphreys, a US Army base located in South Korea, where there are very few academic resources for students to utilize.
+      I tutored 6-8 students, ranging from 2nd-11th grade in SAT, ACT, Math (Elementary, Algebra I and II, Geometry, Pre-Calculus, and Calculus I), Science (AP Biology), and English.
+      I developed a personalized summer curriculum for each student based on their needs and expectations.<br><br>
+      
+      Student Researcher  [Sept 2019 - May 2020]<br>
+      I conducted Biology research as part of the Junior Science and Humanities Symposium, a STEM program sponsored by the Department of Defense.
+      I researched the effect of various meditation techniques on the quality of sleep using smartwatch technology.
+      Afterwards, I analyzed how the data compared to that of previous research.
+      I presented my findings to a regional judge panel in Okinawa, Japan and placed 2nd.
+    </p>
+  </div>
+</a>
 </div>
 
 <div class="main"><a id="skills">
