@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-family: "Times New Roman", sans-serif;
     scroll-behavior: smooth;
     line-height: 1;
@@ -7,18 +9,19 @@
     background-color: #006100;
 }
 
-body {
+.body {
   font-family: "Lato", sans-serif;
 }
 
 .sidenav {
   height: 100%;
-  width: 160px;
+  width: 350px;
   position: fixed;
-  z-index: 1;
+  z-index: 999;
   top: 0;
   left: 0;
   background-color: #006100;
+  color: #FBFAF2;
   overflow-x: hidden;
   padding-top: 60px;
 }
@@ -26,7 +29,7 @@ body {
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 20px;
   color: #FBFAF2;
   display: block;
 }
@@ -37,7 +40,7 @@ body {
 }
 
 .main {
-  margin-left: 20px; /* Same as the width of the sidenav */
+  margin-left: 350px; /* Same as the width of the sidenav */
   font-size: 15px; /* Increased text to enable scrolling */
   padding: 0px 0px;
   color: #FBFAF2;
@@ -45,12 +48,6 @@ body {
 }
 
 @media screen and (max-width: 960px) {
-  .sidenav {
-      padding-top: 15px;
-  }
-  .sidenav a {
-      font-size: 3px;
-  }
   body {
       background-color: #006100;
   }
