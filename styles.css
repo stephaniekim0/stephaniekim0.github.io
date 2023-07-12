@@ -2,9 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Lato", sans-serif;
+    font-family: "Space Grotesk", serif;
     scroll-behavior: smooth;
-    line-height: 1;
     color: #FBFAF2;
     background-color: #006100;
 }
@@ -23,7 +22,8 @@
   background-color: #006100;
   color: #FBFAF2;
   overflow-x: hidden;
-  padding-top: 60px;
+  padding-left: 80px;
+  padding-top: 18%
 }
 
 .sidenav a {
@@ -42,7 +42,74 @@
 .main {
   margin-left: 350px; /* Same as the width of the sidenav */
   font-size: 15px; /* Increased text to enable scrolling */
-  padding: 0px 0px;
+  padding: 30px 0px 20px 0px;
+}
+
+.about_container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 300px 1fr;
+  max-width: 2000px;
+  column-gap: 1px;
+  text-align: start;
+}
+
+.about {
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 90px 200px 0;
+}
+
+.portrait_image {
+  border-radius: 10%;
+  border: 2px solid #FBFAF2;
+}
+
+.about_description {
+  padding: 25px 50px;
+  color:#FBFAF2;
+  font-size: 20px;
+  line-height: 1.9;
+}
+
+<!-- experiences {
+  display: flex;
+  justify-content: row;
+  align-items: center;
+  padding: 25px 80px 25px 0;
+  font-size: 20px; 
+} -->
+
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: left;
+  table-layout: fixed;
+}
+
+th, td {
+  padding: 55px;
+}
+
+tr {
+  font-size: 17px;
+}
+
+th {
+  font-size: 12px !important;
+}
+
+
+.skills {
+  display: flex;
+  justify-content: row;
+  align-items: center;
+  padding: 25px 8px 25px 0; 
 }
 
 @media (max-width: 960px) {
@@ -52,32 +119,17 @@
   }
 
   .about {
-    padding: 50px;
+    flex-direction: column;
   }
-  
-  .portrait_image {
-    width: 80px;
-    height: auto;
-    margin: 5px auto;
-    border-radius: 25%;
-    border: 3px solid #FBFAF2;
-  }
-  
-  .about_description {
-    padding: 25px 0;
-  }
-  
-  .experiences {
-    display: flex;
-    justify-content: row;
-    align-items: center;
-    padding: 25px 0 25px 0; 
-  }
-  
-  .skills {
-    display: flex;
-    justify-content: row;
-    align-items: center;
-    padding: 25px 0 25px 0; 
+}
+
+@media screen and (max-width: 960px) {
+  .navbar__container {
+      display: flex;
+      justify-content: space-between;
+      height: 70px;
+      z-index: 1;
+      width: 100%;
+      max-width: 2000px;
   }
 }
