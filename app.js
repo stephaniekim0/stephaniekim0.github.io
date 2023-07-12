@@ -1,6 +1,4 @@
-Result Skip Results Iframe
-EDIT ON
-var header = document.getElementById('header');
+var table = document.getElementById('table');
 
 function fadeOutOnScroll(element) {
   if (!element) {

@@ -75,17 +75,9 @@
   line-height: 1.9;
 }
 
-<!-- experiences {
-  display: flex;
-  justify-content: row;
-  align-items: center;
-  padding: 25px 80px 25px 0;
-  font-size: 20px; 
-} -->
-
-
 table, th, td {
-  border: 1px solid black;
+  width: 95%;
+  border: 0px solid black;
   border-collapse: collapse;
   border-spacing: 0;
   text-align: left;
@@ -101,8 +93,23 @@ tr {
 }
 
 th {
-  font-size: 12px !important;
+  font-size: 14px !important;
 }
+
+hr.new {
+  width: 95%;
+  border: solid rgb(234, 234, 229, 0.3);
+  border-width: 0.5px 0 0;
+  opacity: 0;
+}
+
+.resume_button {
+  padding: 0px;
+}
+
+
+
+
 
 
 .skills {
@@ -111,6 +118,12 @@ th {
   align-items: center;
   padding: 25px 8px 25px 0; 
 }
+
+
+
+
+
+
 
 @media (max-width: 960px) {
   body {
