@@ -118,7 +118,12 @@ hr.new {
   text-align: center
 }
 
-
+.language_logos {
+  vertical-align: middle;
+  border-radius: 50%;
+  max-width: 150px;
+  height: auto;
+}
 
 
 
