@@ -23,7 +23,7 @@
   color: #FBFAF2;
   overflow-x: hidden;
   padding-left: 80px;
-  padding-top: 18%
+  padding-top: 20%
 }
 
 .sidenav a {
@@ -40,9 +40,9 @@
 }
 
 .main {
-  margin-left: 350px; /* Same as the width of the sidenav */
-  font-size: 15px; /* Increased text to enable scrolling */
-  padding: 30px 0px 20px 0px;
+  margin-left: 350px; 
+  font-size: 15px; 
+  padding: 100px 0px 20px 0px;
 }
 
 .about_container {
@@ -55,12 +55,11 @@
 }
 
 .about {
-  padding: 0px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 70px 90px 200px 0;
+  padding: 50px 90px 150px 0;
 }
 
 .portrait_image {
@@ -76,8 +75,9 @@
 }
 
 table, th, td {
+  margin: 0px;
+  padding: 0px;
   width: 95%;
-  border: 0px solid black;
   border-collapse: collapse;
   border-spacing: 0;
   text-align: left;
@@ -93,7 +93,7 @@ tr {
 }
 
 th {
-  font-size: 14px !important;
+  font-size: 15px !important;
 }
 
 hr.new {
@@ -104,19 +104,18 @@ hr.new {
 }
 
 .resume_button {
+  margin-top: 0px;
   padding: 0px;
+  font-size: 17px;
 }
-
-
-
-
-
 
 .skills {
   display: flex;
   justify-content: row;
   align-items: center;
-  padding: 25px 8px 25px 0; 
+  padding: 100px 8px 25px 0; 
+  font-size: 25px;
+  text-align: center
 }
 
 
