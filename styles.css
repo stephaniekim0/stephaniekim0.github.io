@@ -46,8 +46,11 @@
 }
 
 .about_container {
-  display: grid;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
+  align-content: center;
   grid-template-columns: 300px 1fr;
   max-width: 2000px;
   column-gap: 1px;
@@ -187,7 +190,7 @@ hr.new {
 }
 
 @media screen and (max-width: 960px) {
-  .navbar__container {
+  .sidenav {
       display: flex;
       justify-content: space-between;
       height: 70px;
@@ -195,4 +198,13 @@ hr.new {
       width: 100%;
       max-width: 2000px;
   }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .about_description {
+    padding: 25px 0px;
+  }
+
 }
