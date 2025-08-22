@@ -140,42 +140,39 @@ hr.new {
 
 .projects {
   display: flex;
-  flex-direction: column;
-  gap: 4rem;
-  margin-bottom: 2rem;
+  flex-direction: column;  /* Changed from row to column */
+  gap: 4rem;              /* Add space between projects */
+  background-color: #006100;
+  color: #FBFAF2;
+  padding: 10px 20px 5px 0px;
 }
 
 .project1, .project2 {
   display: flex;
+  flex-direction: row;    /* Keep image and description side by side */
   align-items: flex-start;
-  gap: 2rem;
   margin-bottom: 2rem;
 }
 
 .project1_image {
   border-radius: 10%;
-  width: 300px;
-  height: 200px;
+  width: 300px;          /* Increased width */
+  height: 200px;         /* Increased height */
   object-fit: cover;
 }
 
 .project_description {
-  flex: 1;
-  padding: 0 20px;
+  padding: 0 40px;
   color: #FBFAF2;
   font-size: 20px;
   line-height: 1.9;
 }
 
 .project_link {
-  margin-top: 1.5rem;
   background-color: #006100;
-  padding: 0;
-  text-align: center;
-  color:#FBFAF2;
-  border-radius: 25px;
-  padding: 0px 0px 200px 0px;
-  display: inline-block;
+  color: #FBFAF2;
+  padding: 20px 0 0 0;   /* Adjusted padding */
+  text-align: left;      /* Align left */
 }
 
 .contact_images {
